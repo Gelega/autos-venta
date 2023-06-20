@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="contacto-header">
+        <h1 class="contacto-header-title">Todo Vehículos</h1>
+        <nav class="contacto-header-container-nav">
+            <ul class="contacto-header-nav-list">
+                <li class="contacto-header-nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="contacto-header-nav-item"><a href="">Autos</a></li>
+                <li class="contacto-header-nav-item"><a href="">Camionetas</a></li>
+                <li class="contacto-header-nav-item"><a href="">Motos</a></li>
+                <li class="contacto-header-nav-item"><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h2 class="contacto-main-title">Contáctenos</h2>
+        <p class="contacto-main-text">Complete con sus datos y preferencias. En breve nos comunicaremos con usted.</p>
+        <section class="contacto-main-section">
+            <form class="contacto-main-section-form" action="">
+                <label class="contacto-main-section-form-label" for="nombre">Escribe tu nombre</label>
+                <input class="contacto-main-section-form-input" type="text" required placeholder="Nombre" id="nombre" name="nombre">
+                <label class="contacto-main-section-form-label" for="apellido">Escribe tu apellido</label>
+                <input class="contacto-main-section-form-input" type="text" required placeholder="Apellido" id="apellido" name="apellido" required>
+                <label class="contacto-main-section-form-label" for="email">Correo Electrónico</label>
+                <input class="contacto-main-section-form-input" type="email" requered name="email" id="email" placeholder="Correo Electronico" required>
+                <label class="contacto-main-section-form-label" for="tipo-de-vehiculo">¿Qué tipo de Vehículo estas buscando?</label>
+                <div class="contacto-main-section-form-conteiner" id="tipo-de-vehiculo">
+                    <input class="contacto-main-section-form-conteiner-input" type="radio" name="my-input" id="auto">
+                    <label class="contacto-main-section-form-conteiner-label" for="auto">Auto</label>
+                    <input class="contacto-main-section-form-conteiner-input" type="radio" name="my-input" id="camioneta">
+                    <label class="contacto-main-section-form-conteiner-label" for="camioneta">Camioneta</label>
+                    <input class="contacto-main-section-form-conteiner-input" type="radio" name="my-input" id="moto">
+                    <label class="contacto-main-section-form-conteiner-label" for="moto">Moto</label>
+                </div>
+                <label class="contacto-main-section-form-label" for="modelo">Modelo del Vehiculo</label>
+                <select class="contacto-main-section-form-select" name="tipo-de-vehiculo" id="modelo">
+                    <option class="contacto-main-section-form-select-option" value="1995-2000">1995 - 2000</option>
+                    <option class="contacto-main-section-form-select-option" value="2000-2005">2000 - 2005</option>
+                    <option class="contacto-main-section-form-select-option" value="2005-2010">2005 - 2010</option>
+                    <option class="contacto-main-section-form-select-option" value="2010-1015">2010 - 2015</option>
+                    <option class="contacto-main-section-form-select-option" value="2015-2020">2015 - 2020</option>
+                    <option class="contacto-main-section-form-select-option" value="2020-2023">2020 - 2023</option>
+                </select>
+                <div class="contacto-main-section-form-conteiner-button">
+                    <input class="contacto-main-section-form-button-input" type="reset" value="Borrar">
+                    <input class="contacto-main-section-form-button-input" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">Telefono: 0800-venta-autos</p>
+        <p class="footer-text">E-mail: ventadeautos@gmail.com</p>
+        <p class="footer-text">Dirección: Av. florida ***</p>
+        <div class="footer-container-social">
+            <ul class="footer-list-social">
+                <li class="footer-item-social">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-item-social">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-item-social">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M16.5 7.5l0 .01" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
